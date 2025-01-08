@@ -5,7 +5,7 @@ import {
   createExponentialFadeOutCurve,
   sleep,
 } from '../libs/funcs';
-import { AudioContext, TOscillatorType } from 'standardized-audio-context';
+import { AudioContext, type TOscillatorType } from 'standardized-audio-context';
 
 const actx = new AudioContext();
 const out = actx.destination;

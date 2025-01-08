@@ -12,7 +12,7 @@ export default defineConfig({
     sitemap({
       serialize(item) {
         if (item.url === 'https://cafa.dev/webaudio') return undefined; // remove duplicate index page from sitemap
-        item.changefreq = 'weekly';
+        item.changefreq = 'monthly';
         item.lastmod = new Date();
         item.priority = 0.8;
 
